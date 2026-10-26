@@ -114,7 +114,7 @@ class GalleryCard(QFrame):
             if not pix.isNull():
                 self.thumb.setPixmap(pix.scaled(
                     CARD_W, 130,
-                    Qt.AspectRatioMode.CoverMode,
+                    Qt.AspectRatioMode.KeepAspectRatioByExpanding,
                     Qt.TransformationMode.SmoothTransformation))
 
     def mouseDoubleClickEvent(self, event) -> None:  # noqa: N802
