@@ -94,3 +94,7 @@ python -m pytest -m "not network"  # offline only (fast)
 ## License
 
 [Unlicense](LICENSE)
+
+## Development
+
+All work happens on PR branches off `main`. See the open pull request for the full application.
